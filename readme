@@ -1,99 +1,31 @@
-#🌴 OpalOases - The Ultimate Hotel Booking Experience 🌴
+
+
+# 🌴 OpalOases - The Ultimate Hotel Booking Experience 🌴
 Welcome to OpalOases, where your dream vacation is just a click away! Whether you’re looking for luxury or budget-friendly accommodations, we’ve got you covered with a wide range of hotels and booking options that cater to every traveler.
 
-🏨 About OpalOases
+## 🏨 About OpalOases
 OpalOases is your all-in-one platform for seamless hotel booking. Our platform offers real-time room availability, personalized suggestions, and hassle-free bookings. Perfect for travelers looking for comfort, convenience, and flexibility.
 
-💼 Key Features
-Real-Time Availability: Always know which rooms are available with our up-to-date listings.
-Secure Payments: Pay securely with multiple payment gateways including Stripe.
-User-Friendly Interface: Easy to navigate and book your stay in just a few steps.
+## 💼 Key Features
+- Real-Time Availability: Always know which rooms are available with our up-to-date - listings.
+- Secure Payments: Pay securely with multiple payment gateways including Stripe.
+- User-Friendly Interface: Easy to navigate and book your stay in just a few steps.
+- Verified Reviews: Trustworthy ratings and reviews to help you choose the best accommodation.
 
-🛠️ Tech Stack
-Frontend: React, TailwindCSS, Vite, React Hook Form
-Backend: Node.js, Express, MongoDB, Prisma, Mongoose
-Payment Gateway: Stripe integration
-Authentication: JWT for secure user authentication
-Image Uploads: Cloudinary
+## 🛠️ Tech Stack
+- Frontend: React, TailwindCSS, Vite, React Hook Form
+- Backend: Node.js, Express, MongoDB, Prisma, Mongoose
+- Payment Gateway: Stripe integration
+- Authentication: JWT for secure user authentication
+- Image Uploads: Cloudinary
 
-
-Memory updated
-Here's an attractive README for your "OpalOases" hotel booking app, using different font sizes for emphasis:
-
-🌴 OpalOases - The Ultimate Hotel Booking Experience 🌴
-Welcome to OpalOases, where your dream vacation is just a click away! Whether you’re looking for luxury or budget-friendly accommodations, we’ve got you covered with a wide range of hotels and booking options that cater to every traveler.
-
-🏨 About OpalOases
-OpalOases is your all-in-one platform for seamless hotel booking. Our platform offers real-time room availability, personalized suggestions, and hassle-free bookings. Perfect for travelers looking for comfort, convenience, and flexibility.
-
-💼 Key Features
-Real-Time Availability: Always know which rooms are available with our up-to-date listings.
-Secure Payments: Pay securely with multiple payment gateways including Stripe.
-User-Friendly Interface: Easy to navigate and book your stay in just a few steps.
-Verified Reviews: Trustworthy ratings and reviews to help you choose the best accommodation.
-🚀 Get Started
-Clone the repo:
-
-bash
-Copy code
-git clone https://github.com/your-repo/opal-oases.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd opal-oases
-Install dependencies for both frontend and backend:
-
-bash
-Copy code
-npm install
-Frontend Setup 🖥️
-Navigate to the client folder and run:
-
-bash
-Copy code
-npm run dev
-Backend Setup 🛠️
-Navigate to the api folder and run:
-
-bash
-Copy code
-npm run dev
-🛠️ Tech Stack
-Frontend: React, TailwindCSS, Vite, React Hook Form
-Backend: Node.js, Express, MongoDB, Prisma, Mongoose
-Payment Gateway: Stripe integration
-Authentication: JWT for secure user authentication
-Image Uploads: Cloudinary
-📄 Package Information
-Frontend (package.json)
-json
-Copy code
-{
-  "name": "client",
-  "version": "0.0.0",
-  "scripts": { ... },
-  "dependencies": { ... },
-  "devDependencies": { ... }
-}
-Backend (package.json)
-json
-Copy code
-{
-  "name": "api",
-  "version": "1.0.0",
-  "scripts": { ... },
-  "dependencies": { ... },
-  "devDependencies": { ... }
-}
-
-💻 Development
+## 💻 Development
 Want to contribute? Fork the repo and submit a pull request!
 
-Commands:
+### Commands:
 Frontend: npm run dev to start the client.
 Backend: npm run dev to start the server.
 
-📧 Contact Us
+## 📧 Contact Us
 For any questions or issues, please contact us at work.tuhindhar@gmail.com.
 
