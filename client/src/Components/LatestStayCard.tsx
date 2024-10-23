@@ -1,0 +1,33 @@
+import { Link } from "react-router-dom";
+import { HotelType } from "../api-client";
+
+type Props = {
+  hotel: HotelType;
+};
+
+const LatestStayCard = ({ hotel }: Props) => {
+  return (
+    <Link
+      to={`/detail/${hotel._id}`}
+      className="relative cursor-pointer overflow-hidden rounded-md "
+    >
+      <div
+        className="h-[300px] transform transition duration-500 
+                                hover:scale-110"
+      >
+        <img
+          src={hotel.imageUrls[0]}
+          alt=""
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
+      <div className="absolute bottom-0 p-4 bg-black bg-opacity-50 w-full rounded-b-md ">
+        <span className="text-white font-bold tracking-tight text-3xl">
+          {hotel.name}
+        </span>
+      </div>
+    </Link>
+  );
+};
+
+export default LatestStayCard;
